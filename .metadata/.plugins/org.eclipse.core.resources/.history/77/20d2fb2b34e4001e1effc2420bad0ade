@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Functions in the jsp</title>
+</head>
+<body>
+<h1>factorial of  5 :<%=util.;%></h1>
+<h1>factorial of  4 :<%=factorial(4) %></h1>
+<h1>factorial of  2 :<%=factorial(2) %></h1>
+<h1>The upper case of : "kunal" : <%=Makeupper("kunal") %></h1>
+
+</body>
+</html>

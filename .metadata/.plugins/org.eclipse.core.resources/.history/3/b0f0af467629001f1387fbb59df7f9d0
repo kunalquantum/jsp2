@@ -1,0 +1,23 @@
+package com.dark;
+import java.sql.Timestamp;
+public class Employee {
+	private int id;
+	private String name;
+	private String email;
+	private Timestamp doj;
+	
+	//parameterized constructor 
+	public Employee(int id, String name, String email, Timestamp doj) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.email = email;
+		this.doj = doj;
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,32 @@
+<%@ page import="com.dark.Employee" %>
+<%@ page import="java.util.List" %>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>List of employees</title>
+</head>
+<body>
+<table>
+<tr>
+<th>ID</th>
+<th>NAME</th>
+<th>EMAIL</th>
+<th>JOINING DATE</th>
+<%
+
+List<Employee> list=request.getAttribute("allemployees");
+
+
+
+%>
+
+</tr>
+
+</table>
+
+</body>
+</html>

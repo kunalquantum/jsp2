@@ -1,0 +1,5 @@
+package com.mvc.servlet;
+//this is  the data Access object class which is also called as the util  class 
+public class employeeutil {
+
+}

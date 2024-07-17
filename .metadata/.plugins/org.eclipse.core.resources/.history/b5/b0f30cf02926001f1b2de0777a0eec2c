@@ -1,0 +1,5 @@
+package com.admin.customerManagement.dao;
+
+public class UserDao {
+
+}

@@ -1,0 +1,32 @@
+<%@ page import= "com.mvc.servlet.Employee" %>
+<%@ page import= "java.util.ArrayList;" %>>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>List of all employees</title>
+</head>
+<body>
+
+<h1>The List of Employees </h1>
+
+<table>
+
+<tr>
+
+<th>Employee Id</th>
+<th>Employee Name</th>
+<th>Employee Salary</th>
+
+</tr>
+
+<%
+ArrayList<Employee> allEmployees=(ArrayList<Employee>)request.getAttribute("allemps");
+%>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+package com.demoApp;
+import java.io.PrintWriter;
+import java.io.IOException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
+
+public class squareSerlvet extends HttpServlet 
+{
+	public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException {
+//		
+		
+		HttpSession session=request.getSession();
+		
+		int k=(int)session.getAttribute("k");		
+		PrintWriter out=response.getWriter();
+		int res=k*k;
+			
+		out.println("The square of the number is "+k);
+		out.println("Square of "+x1+" :"+res);
+	
+		
+		System.out.println("Yes successfull");
+		
+		
+	}
+
+	
+	
+}

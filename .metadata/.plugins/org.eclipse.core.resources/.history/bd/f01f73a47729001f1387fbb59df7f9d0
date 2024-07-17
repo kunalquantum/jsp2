@@ -1,0 +1,16 @@
+package com.dark;
+
+import javax.sql.DataSource;
+
+public class Employeeutil {
+
+	private DataSource datasource;
+
+	public Employeeutil(DataSource datasource) {
+		super();
+		
+		this.datasource=datasource;
+	}
+	
+	
+}

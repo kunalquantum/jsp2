@@ -1,0 +1,12 @@
+package com.admin.customerManagement.dao;
+
+public class UserDao {
+	private String jdbcurl="jdbc:mysql://localhost:3306/userdb?userSSL=false";
+	private String jdbcUsername="root";
+	private String jdbcPassword="roott";
+	private String jdbcDriver="com.mysql.jdbc.driver";
+	
+	private static final String INSERT_USER_SQL="INSERT INTO users "+"(name)"
+	
+
+}

@@ -1,0 +1,28 @@
+package com.dark;
+
+import java.sql.Connection;
+import java.util.*;
+import javax.sql.DataSource;
+
+
+public class Employeeutil {
+
+	private DataSource datasource;
+
+	public Employeeutil(DataSource datasource) {
+		super();
+		
+		this.datasource=datasource;
+	}
+	
+	public List<Employee> GetAllEmployees(){
+		List<Employee> employees=null;
+		
+		Connection con=null;
+		
+		return employees;
+		
+	}
+	
+	
+}

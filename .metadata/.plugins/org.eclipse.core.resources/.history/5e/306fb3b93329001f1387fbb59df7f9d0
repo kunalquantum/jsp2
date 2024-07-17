@@ -1,0 +1,32 @@
+package com.mvc.servlet;
+
+public class Employee {
+
+	
+	private int emp_id;
+	private String emp_name;
+	
+	
+	
+	
+
+
+
+	private double salary;
+	
+	public Employee() {
+		super();
+	}
+	
+	
+	
+	
+//	constructor
+	public Employee(int emp_id, String emp_name, double salary) {
+		super();
+		this.emp_id = emp_id;
+		this.emp_name = emp_name;
+		this.salary = salary;
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.management.bean;
+
+public class User {
+
+}

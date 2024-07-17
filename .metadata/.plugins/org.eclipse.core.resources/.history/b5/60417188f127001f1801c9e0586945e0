@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+</head>
+<body>
+<h1>Welcome To calculator </h1>
+
+<form action="calc">
+Enter the first number <input type="text" name="val1">
+Enter the first number <input type="text" name="val2">
+
+
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+</html>

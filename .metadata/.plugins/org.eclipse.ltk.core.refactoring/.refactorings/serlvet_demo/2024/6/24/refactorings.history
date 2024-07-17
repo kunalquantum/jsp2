@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.jdbc.servlet&apos; to &apos;com.mvc.servlet&apos;&#x0D;&#x0A;- Original project: &apos;serlvet_demo&apos;&#x0D;&#x0A;- Original element: &apos;serlvet_demo/src/main/java/com.jdbc.servlet&apos;&#x0D;&#x0A;- Renamed element: &apos;serlvet_demo/src/main/java/com.mvc.servlet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.jdbc.servlet&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.jdbc.servlet" name="com.mvc.servlet" qualified="false" references="true" stamp="1718248417999" textual="false" version="1.0"/>
+</session>

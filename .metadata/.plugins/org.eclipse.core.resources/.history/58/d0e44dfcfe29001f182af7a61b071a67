@@ -1,0 +1,13 @@
+package com.management.dao;
+// backend for crud 
+public class UserDao {
+
+	private String jdbcurl="jdbc:mysql://localhost:3306/userdb?/useSSL=false";
+	private String username="root";
+	private String password="root";
+	private String jdbcDriver="com.mysql.jdbc.driver";
+	
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.demoApp;
+
+public @interface Webservlet {
+
+}
